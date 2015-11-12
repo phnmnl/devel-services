@@ -21,6 +21,5 @@ RUN apt-get install -y libnetcdf-dev && \
 	apt-get install -y libssl-dev && \
 	apt-get install -y libssh2-1-dev
 
-RUN mkdir /IPO
-ADD ./installIPO.R /IPO/installIPO.R
-RUN Rscript /IPO/installIPO.R
+ADD scripts /scripts
+RUN Rscript /scripts/installIPO.R
