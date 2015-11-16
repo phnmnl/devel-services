@@ -1,3 +1,0 @@
-[submodule "docker-containers/IPO"]
-	path = docker-containers/IPO
-	url = https://github.com/CS76/IPO.git
